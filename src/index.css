@@ -1,0 +1,31 @@
+
+body {
+    font-family: 'Figtree', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-weight: 100;
+}
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Figtree', sans-serif;
+    box-sizing: inherit;
+    font-weight: 100;
+}
+
+
+  .reveal {
+    opacity: 0;
+    transform: translateY(50px);
+    transition: opacity 0.6s ease, transform 0.6s ease;
+  }
+  
+  .reveal-visible-up,
+  .reveal-visible-down {
+    opacity: 1;
+    transform: translateY(0);
+  }
