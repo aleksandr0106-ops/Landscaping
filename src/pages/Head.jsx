@@ -229,8 +229,8 @@ function Block5() {
       <div
         style={{
           position: "relative",
-          width: isMobile ? "250px" : "325px",
-          height: isMobile ? "250px" : "325px",
+          width: isMobile ? "300px" : "325px",
+          height: isMobile ? "300px" : "325px",
           marginInline: isMobile ? "auto" : "110px",
         }}
       >
@@ -245,8 +245,8 @@ function Block5() {
         <Overlay
           title="Гармония камня и листвы"
           subtitle="Дизайн посадки, выбор растений 2025"
-          width={isMobile ? 250 : 325}
-          height={isMobile ? 100 : 125}
+          width={isMobile ? 300 : 325}
+          height={isMobile ? 125 : 125}
           top="0"
         />
       </div>
